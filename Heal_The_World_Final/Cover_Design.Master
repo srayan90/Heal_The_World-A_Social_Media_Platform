@@ -1,0 +1,149 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Cover_Design.master.cs" Inherits="Heal_The_World_Final.Cover_Design" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        html {
+            background: url('Images/BCKG.jpg') repeat center;
+            min-height: 100%;
+            background-size: cover;
+        }
+
+        body {
+            min-height: 100%;
+            font-family: @ Times New Roman;
+        }
+
+        .style1 {
+            width: 340px;
+        }
+
+        .style2 {
+            width: 950px;
+        }
+
+        .style3 {
+            font-size: medium;
+            font-family: "Times New Roman", Times, serif;
+        }
+
+        .style4 {
+            font-size: medium;
+        }
+
+        .style5 {
+            height: 130px;
+            text-align: left;
+        }
+
+        .style6 {
+            font-size: medium;
+        }
+
+        .style7 {
+            text-decoration: underline;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        .style8 {
+            text-align: center;
+            font-family: 'Lucida Console';
+            font-size: x-large;
+            color: white;
+        }
+
+        .style9 {
+        }
+
+        .style10 {
+            height: 44px;
+            text-align: center;
+            width: 186px;
+        }
+
+        .auto-style1 {
+            text-align: center;
+            font-family: 'Times New Roman';
+            font-size: x-large;
+            color: white;
+            font-weight: normal;
+        }
+
+        .auto-style2 {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        .auto-style3 {
+            text-decoration: underline;
+    </style>
+</head>
+<body style="margin-top: 15px">
+    <form id="form1" runat="server">
+        <div>
+            <center>
+            <table style="background-image: url('Images/Main Cover.jpg'); background-repeat: no-repeat;
+                height: 329px; width: 1300px; text-align: left" border="1">
+                <tr>
+                    <td class="style2">
+                        &nbsp;
+                    </td>
+                    <td class="style1" style="color: Black; vertical-align:top;">
+                        <br />
+                        WELCOME,
+                        <asp:Label ID="Label1" runat="server" Text="Username" 
+                            style="font-family: 'Lucida Console'; font-size: large"></asp:Label>
+                        <br />
+                        <br />
+                        <br />
+                        <div style="text-align:center; width: 150px; height: 170px;">
+                            <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/User.jpg" Width="150px"/>
+                        </div>
+                        
+                    </td>
+                </tr>
+            </table>
+        </center>
+        </div>
+        <table style="width: 100%; height: 100px" class="auto-style2">
+            <tr>
+                <td class="style10" style="width: 20%; background-image: url('/Menu Images/Home.jpg'); background-repeat: inherit">
+                    <asp:HyperLink ID="HyperLink2" runat="server" ForeColor="White" Style="text-align: center" CssClass="style7" NavigateUrl="Home_User.aspx">HOME</asp:HyperLink>
+                </td>
+                <td class="style10" style="width: 20%; background-image: url('/Menu Images/About Us.jpg'); background-repeat: inherit">
+                    <asp:HyperLink ID="HyperLink3" runat="server" ForeColor="White" Style="text-align: center" CssClass="style7" NavigateUrl="About_Us.aspx">ABOUT US</asp:HyperLink>
+                </td>
+                <td class="style10" style="width: 20%; background-image: url('/Menu Images/Forum.jpg'); background-repeat: inherit">
+                    <asp:HyperLink ID="HyperLink4" runat="server" ForeColor="White" Style="text-align: center" CssClass="style7" NavigateUrl="Forum.aspx">FORUM</asp:HyperLink>
+                </td>
+                <td class="style10" style="width: 20%; background-image: url('/Menu Images/Live Chatroom.jpg'); background-repeat: inherit">
+                    <asp:HyperLink ID="HyperLink5" runat="server" ForeColor="White" Style="text-align: center" CssClass="style7" NavigateUrl="Live_Chatroom.aspx">LIVE CHATROOM</asp:HyperLink>
+                </td>
+                <td class="style10" style="width: 20%; background-image: url('/Menu Images/Contact Us.jpg'); background-repeat: inherit">
+                    <asp:HyperLink ID="HyperLink6" runat="server" ForeColor="White" Style="text-align: center" CssClass="style7" NavigateUrl="Contact_Us.aspx">CONTACT US</asp:HyperLink>
+                </td>
+            </tr>
+            <tr>
+                <td class="style5" colspan="5">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style1" colspan="5" style="background-image: url('/Images/peace-lion-green-pattern.jpg'); font-size: large; text-align: center;">-: <span class="auto-style3">Desi</span>g<span class="auto-style3">ned B</span>y :-<br />
+                    Sasanka Banerjee (43), Avinandan Banerjee (31), Dipankar Mullick (16), Srayan Goswami (58), Arkaprava Basak (35)<br />
+                    Under the supervision of Prof. T. Chatterjee Madam<br />
+                    CSE - 4TH Year - Final Year Project</td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
