@@ -4,7 +4,7 @@
 • Plugins - Telerik plugin for ASP.NET<br>
 • Platform - Visual Studio<br>
 • Database - SQL Server 2008<br>
-
+<br>
 <strong>PROBLEM STATEMENT</strong> - Social awareness can also be defined as social consciousness; to be conscious of the problems that different societies and communities face on a day-to-day basis. Everyday there are reports of unsocial activities in the society such as eve-teasing, molestation, student-ragging, power abusing, consumer frauds, thefts, etc. which has brought down the value of the morality in the modern society. In such cases, it is mostly up to the people to come forward and act together as one big family and try to minimize it. As said by Stephen R. Covey, "Every human has four endowments: self-awareness, conscience, independent will and creative imagination. These gives us the ultimate human freedom. The power to choose, to respond, to change." Certain questions do come in mind related to this:<br>
 
 • Who are the people committing this crime and who are the victims affected ?<br>
